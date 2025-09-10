@@ -127,3 +127,33 @@ footer p{
 #buttons button:hover{
     background-color: #35e6c2;
 }       
+/* About page style */
+main section{
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}      
+.product{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(144, 125, 125);
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+.product img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;             
+    margin-bottom: 10px;
+
+}
+
+.product h3{
+    margin-bottom: 10px;
+}                           
