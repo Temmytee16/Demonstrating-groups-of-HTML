@@ -50,7 +50,7 @@ main section{
 }
 main section h2{
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 45px;
 }
 main section p{
     margin-bottom: 20px;
@@ -77,3 +77,53 @@ footer{
     justify-content: center;
     align-items: center;
 }
+/* contact page css */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+form label{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: white;
+}
+form input, form textarea{
+    padding: 10px;          
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}       
+form button{
+    padding: 8px 15px;
+    font-size: 18px;
+    background-color: #47ffda;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: #35e6c2;
+}       
+footer p{
+    margin: 0;
+    font-size: 16px;
+}   
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#buttons button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #47ffda;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#buttons button:hover{
+    background-color: #35e6c2;
+}       
